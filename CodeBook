@@ -10,7 +10,7 @@ This code book summarizes variables in `tidydata.txt`.
 
 ## Measurements
 
-* subjectId
+subjectId
 timeBodyAccelerometer.mean...X
 timeBodyAccelerometer.mean...Y
 timeBodyAccelerometer.mean...Z

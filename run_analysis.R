@@ -32,10 +32,11 @@ fitness <- rbind(train,test)
 
 # 2....Extracting the measurements on the mean and standard deviation for each measurement.
 meanstd <- sapply(names(fitness),function(x) grepl("mean",x)|grepl("std",x))
-mean_std_data <- fitness[,meanstd==TRUE]
+mean_std_data <- cbind(fitness[,1:2],fitness[,meanstd==TRUE])  
+
 
 # 3....Descriptive activity names to name the activities in the data set
-fitness2 <- merge(aclab,fitness,by="activityId",all=TRUE)
+fitness2 <- merge(aclab,mean_std_data,by="activityId",all=TRUE)
 #View the results to see the changes
 View(fitness2)
 

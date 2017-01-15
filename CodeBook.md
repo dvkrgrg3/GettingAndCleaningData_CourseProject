@@ -5,8 +5,8 @@
 
 
 
-*timeBodyAccelerometer.mean...X
-*timeBodyAccelerometer.mean...Y
+*'timeBodyAccelerometer.mean...X'
+*'timeBodyAccelerometer.mean...Y'
 *timeBodyAccelerometer.mean...Z
 *timeBodyAccelerometer.std...X
 *timeBodyAccelerometer.std...Y

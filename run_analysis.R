@@ -3,14 +3,14 @@
 library(dplyr)
 
 #importing data from the folders for training and test sets --------------------
-xTrain <- read.table("Data/train/X_train.txt")
-yTrain <- read.table("Data/train/Y_train.txt")
-sTrain <- read.table("Data/train/subject_train.txt")
-xTest <- read.table("Data/test/X_test.txt")
-yTest <- read.table("Data/test/Y_test.txt")
-sTest <- read.table("Data/test/subject_test.txt")
-feat <- read.table("Data/features.txt")
-aclab <- read.table("Data/activity_labels.txt")
+xTrain <- read.table("train/X_train.txt")
+yTrain <- read.table("train/Y_train.txt")
+sTrain <- read.table("train/subject_train.txt")
+xTest <- read.table("test/X_test.txt")
+yTest <- read.table("test/Y_test.txt")
+sTest <- read.table("test/subject_test.txt")
+feat <- read.table("features.txt")
+aclab <- read.table("activity_labels.txt")
 
 
 

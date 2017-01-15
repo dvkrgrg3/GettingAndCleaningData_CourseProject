@@ -1,14 +1,14 @@
- Code Book
+#Code Book
 
 This code book summarizes variables in `tidydata.txt`.
 
-## Identifiers
+##Identifiers
 
 * subjectId - The ID of the test subject
 * activityId - The ID of the activity performed when the corresponding measurements were taken
 * activityType - The type of the activity performed when the corresponding measurements were taken
 
-## Measurements
+##Measurements
 
 subjectId
 timeBodyAccelerometer.mean...X
